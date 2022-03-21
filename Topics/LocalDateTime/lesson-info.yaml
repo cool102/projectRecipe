@@ -1,0 +1,11 @@
+content:
+- Theory
+- Whole hours between two date-time pairs
+- Add days and subtract hours
+- Create LocalDateTime
+- Subtracting hours and adding minutes
+- LocalDateTime class
+- Add 11 hours and print the date
+- Merging date-time instances
+- The passed hours since the beginning of year
+- Adding N minutes

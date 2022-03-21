@@ -1,0 +1,39 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2871#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:4: error: cannot find symbol
+            Scanner scanner = new Scanner(System.in);
+            ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:4: error: cannot find symbol
+            Scanner scanner = new Scanner(System.in);
+                                  ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:6: error: cannot find symbol
+            LocalTime localTime = LocalTime.parse(time);
+            ^
+      symbol:   class LocalTime
+      location: class Main
+    Main.java:6: error: cannot find symbol
+            LocalTime localTime = LocalTime.parse(time);
+                                  ^
+      symbol:   variable LocalTime
+      location: class Main
+    4 errors
+  time: Fri, 04 Mar 2022 12:49:43 UTC
+record: -1

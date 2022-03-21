@@ -1,0 +1,22 @@
+content:
+- Getting data from REST
+- Posting and deleting data via REST
+- Handling requests with bodies
+- HashMap
+- Iterating over arrays
+- Exception handling
+- Lambda expressions
+- Method references
+- Generic methods
+- Standard functional interfaces
+- Optional
+- Regexes in programs
+- Bean validation
+- LocalTime
+- LocalDate
+- LocalDateTime
+- Comparing dates and time
+- The utility class Collections
+- Polymorphism
+- Abstract class
+- Builder

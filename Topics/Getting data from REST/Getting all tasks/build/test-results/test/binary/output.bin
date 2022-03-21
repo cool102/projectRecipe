@@ -1,0 +1,24 @@
+[1;31m
+Start test 1[0m
+
+)  .   ____          _            __ _ _
+* /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
++( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+, \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
++  '  |____| .__|_| |_|_| |_\__, | / / / /
+* =========|_|==============|___/=/_/_/_/
+, :: Spring Boot ::                (v2.5.6)
+
+ÿ2022-02-21 07:22:38.991  INFO 21856 --- [    Test worker] task.Main                                : Starting Main using Java 17.0.1 on DESKTOP-HS4DRCO with PID 21856 (started by almaz in D:\devel\Recipes1\Topics\Getting data from REST\Getting all tasks)
+¦2022-02-21 07:22:38.996  INFO 21856 --- [    Test worker] task.Main                                : No active profile set, falling back to default profiles: default
+“2022-02-21 07:22:40.893  INFO 21856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-02-21 07:22:40.910  INFO 21856 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+•2022-02-21 07:22:40.911  INFO 21856 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+˜2022-02-21 07:22:41.072  INFO 21856 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+¥2022-02-21 07:22:41.072  INFO 21856 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+›2022-02-21 07:22:42.210  INFO 21856 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¢2022-02-21 07:22:42.273  INFO 21856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+›2022-02-21 07:22:42.296  INFO 21856 --- [    Test worker] task.Main                                : Started Main in 3.821 seconds (JVM running for 4.844)
+Ÿ2022-02-21 07:22:42.859  INFO 21856 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+Ž2022-02-21 07:22:42.859  INFO 21856 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+†2022-02-21 07:22:42.861  INFO 21856 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

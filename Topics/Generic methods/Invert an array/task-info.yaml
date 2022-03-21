@@ -1,0 +1,93 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    // do not remove imports
+    import java.util.ArrayList;
+    import java.util.List;
+    import java.util.Scanner;
+    import java.util.function.Function;
+
+    class ArrayUtils {
+        // define invert method here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11025#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:57: error: cannot find symbol
+        public static <T> List<T> getList(Scanner scanner, Function<Scanner, T> func) {
+                                          ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:57: error: cannot find symbol
+        public static <T> List<T> getList(Scanner scanner, Function<Scanner, T> func) {
+                                                           ^
+      symbol:   class Function
+      location: class Main
+    Main.java:57: error: cannot find symbol
+        public static <T> List<T> getList(Scanner scanner, Function<Scanner, T> func) {
+                                                                    ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:19: error: cannot find symbol
+            Scanner scanner = new Scanner(System.in);
+            ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:19: error: cannot find symbol
+            Scanner scanner = new Scanner(System.in);
+                                  ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:23: error: cannot find symbol
+                    List<Integer> list = getList(scanner, Scanner::nextInt);
+                                                          ^
+      symbol:   variable Scanner
+      location: class Main
+    Main.java:25: error: non-static method <T>invert(T[]) cannot be referenced from a static context
+                    array = ArrayUtils.invert(array);
+                                      ^
+      where T is a type-variable:
+        T extends Object declared in method <T>invert(T[])
+    Main.java:31: error: cannot find symbol
+                    List<String> list = getList(scanner, Scanner::next);
+                                                         ^
+      symbol:   variable Scanner
+      location: class Main
+    Main.java:33: error: non-static method <T>invert(T[]) cannot be referenced from a static context
+                    array = ArrayUtils.invert(array);
+                                      ^
+      where T is a type-variable:
+        T extends Object declared in method <T>invert(T[])
+    Main.java:39: error: cannot find symbol
+                    List<Long> list = getList(scanner, Scanner::nextLong);
+                                                       ^
+      symbol:   variable Scanner
+      location: class Main
+    Main.java:41: error: non-static method <T>invert(T[]) cannot be referenced from a static context
+                    array = ArrayUtils.invert(array);
+                                      ^
+      where T is a type-variable:
+        T extends Object declared in method <T>invert(T[])
+    Main.java:47: error: cannot find symbol
+                    List<Short> list = getList(scanner, Scanner::nextShort);
+                                                        ^
+      symbol:   variable Scanner
+      location: class Main
+    Main.java:49: error: non-static method <T>invert(T[]) cannot be referenced from a static context
+                    array = ArrayUtils.invert(array);
+                                      ^
+      where T is a type-variable:
+        T extends Object declared in method <T>invert(T[])
+    Main.java:58: error: cannot find symbol
+            List<T> list = new ArrayList<>();
+                               ^
+      symbol:   class ArrayList
+      location: class Main
+    14 errors
+  time: Mon, 28 Feb 2022 11:00:05 UTC
+record: -1

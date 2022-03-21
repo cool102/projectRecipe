@@ -1,0 +1,13 @@
+content:
+- Theory
+- Some hours and minutes ago
+- Seconds since start of a day
+- Return time without seconds
+- LocalTime constants
+- Methods of LocalTime
+- Same time
+- Working with time
+- Representing the same time
+- Get hour
+- Add second, get second
+- Seconds between two time points
